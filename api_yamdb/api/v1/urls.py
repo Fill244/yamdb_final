@@ -2,7 +2,8 @@ from django.urls import include, path
 from rest_framework.routers import DefaultRouter
 
 from api.v1.views import (
-    CategoryViewSet, CommentViewSet, EmailTokenObtainPairView, GenreViewSet, ReviewViewSet, RegisterView, TitlesViewSet, UsersViewSet)
+    CategoryViewSet, CommentViewSet, EmailTokenObtainPairView, GenreViewSet,
+    ReviewViewSet, RegisterView, TitlesViewSet, UsersViewSet)
 
 v1_router = DefaultRouter()
 
